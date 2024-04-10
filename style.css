@@ -1,0 +1,103 @@
+:root{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0a0a23;
+    color: #fff;
+    font-size: 2rem;
+}
+
+label {
+    color: #0a0a23;
+    margin-bottom: 2rem;
+}
+
+span i{
+    color: #FFE600;
+    padding: .5rem;
+}
+
+.palindrome-input {
+    height: 3rem;
+    width: 25rem;
+    text-align: center;
+    margin: 1rem;
+    border: none;
+    border-bottom: .2rem solid #5a01a7;
+}
+
+.palindrome-btn {
+    width: 9rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    background-color: #5a01a7;
+    color: #fff;
+    cursor: pointer;
+}
+
+.palindrome-definition-div {
+    width: min(100vw, 45rem);
+    min-height: 14rem;
+    background-color: #00471b;
+    margin-top: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.palindrome-definition {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.result-text{
+    color: #0a0a23;
+    margin: 1rem;
+    text-align: center;
+}
+
+#body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+#title{
+    font-size: 4rem;
+    margin-bottom: 2.5rem;
+}
+
+#form{
+    width: min(100vw, 45rem);
+    min-height: 10rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: white;
+    box-shadow: 0 .6rem .6rem #002ead;
+}
